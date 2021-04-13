@@ -9,7 +9,7 @@
                     <div class="icon-add">
                         
                     </div>
-                    <div class="btn-text" id="btn-add">
+                    <div class="btn-text" id="btn-add" @click="controldialog">
                         Thêm khách hàng
                     </div>
                 </button>
@@ -62,8 +62,8 @@
             <div class="bar-right">
                 <p>10 Khách hàng/trang</p>
             </div>
-        </div>
-        <CustomerListDetail/>
+        </div>      
+          <CustomerListDetail  ></CustomerListDetail>
     </div>
     
 </template>
@@ -75,6 +75,20 @@ export default{
     components: {
         CustomerListDetail
     },
+    data() {
+        return {
+            showdialog: false,
+        }
+    },
+    methods:{
+        controldialog(){
+            this.showdialog = !(this.showdialog);
+            console.log(this.showdialog);
+        }
+    },
+    props: {
+        check : this.showdialog
+    }
 };
 </script>
 
@@ -203,7 +217,7 @@ export default{
 .icon-option-default-16{
     width: 16px;
     height: 16px;
-    background-image: url('../../../../assets/icon/option.png');
+    background-image: url('../../../../assets/img/Sprites.64af8f61.svg');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -211,12 +225,12 @@ export default{
 .icon-add{
     width: 16px;
     height: 16px;
-    background-image: url('../../../../assets/icon/add.png');
+    background-image: url('../../../../assets/img/Sprites.64af8f61.svg');
     background-position: center;
 }
 
 .icon-search{
-    background-image:  url('../../../../assets/icon/search.png');
+    background-image:  url('../../../../assets/img/Sprites.64af8f61.svg');
     background-repeat: no-repeat;
     background-position: 16px center;
 }
@@ -228,25 +242,25 @@ width: 20px;
 }
 
 .bar-center-icon-1{
-background-image: url('../../../../assets/icon/btn-firstpage.svg');
+background-image: url('../../../../assets/img/Sprites.64af8f61.svg');
 background-position: center;
     background-repeat: no-repeat;
 }
 
 .bar-center-icon-2{
-background-image: url('../../../../assets/icon/btn-prev-page.svg');
+background-image: url('../../../../assets/img/Sprites.64af8f61.svg');
 background-position: center;
     background-repeat: no-repeat;
 }
 
 .bar-center-icon-3{
-background-image: url('../../../../assets/icon/btn-next-page.svg');
+background-image: url('../../../../assets/img/Sprites.64af8f61.svg');
 background-position: center;
     background-repeat: no-repeat;
 }
 
 .bar-center-icon-4{
-background-image: url('../../../../assets/icon/btn-lastpage.svg');
+background-image: url('../../../../assets/img/Sprites.64af8f61.svg');
 background-position: center;
     background-repeat: no-repeat;
 }

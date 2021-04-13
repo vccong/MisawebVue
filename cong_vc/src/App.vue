@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div>
   <TheMenu/>
   <TheHeader/>
   <TheContent/>

@@ -65,7 +65,7 @@ export default {
 .navbar .logo-box .toggle-icon {
     width: 30px;
     height: 30px;
-    background-image: url('../../assets/img/toggle.png');
+    background-image: url('../../assets/icon/favicon.ico');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -74,7 +74,7 @@ export default {
     width: 100%;
     height: 30px;
     margin-left: 10px;
-    background-image: url('../../assets/img/cukcuk-logo.png');
+    background-image: url('../../assets/img/Logo_Module_TiengViet_White.svg');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -114,27 +114,27 @@ export default {
 }
 
 .nav-item-1 {
-    background-image: url(../../assets/icon/dashboard.png);
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
     background-size: contain;
 }
 
 .nav-item-2 {
-    background-image: url(../../assets/icon/report.png);
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
     background-size: contain;
 }
 
 .nav-item-3 {
-    background-image: url(../../assets/icon/dashboard.png);
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
     background-size: contain;
 }
 
 .nav-item-4 {
-    background-image: url(../../assets/icon/dic-employee.png);
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
     background-size: contain;
 }
 
 .nav-item-5 {
-    background-image: url(../../assets/icon/setting.png);
+    background-image: url(../../assets/img/Sprites.64af8f61.svg);
     background-size: contain;
 }
 </style>

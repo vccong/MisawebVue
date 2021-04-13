@@ -8,9 +8,9 @@
             </select>
         </div>
         <div class="header-right">
-            <img class="img-admin" src="../../assets/icon/avatar-default.png" alt="">
+            <img class="img-admin" src="../../assets/img/Sprites.64af8f61.svg" alt="">
             <p>Vuong Chi Cong</p>
-            <img class="img-option" src="../../assets/icon/option.png" alt="">
+            <img class="img-option" src="../../assets/img/Sprites.64af8f61.svg" alt="">
         </div>
     </div>
 </template>

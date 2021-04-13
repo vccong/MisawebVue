@@ -1,21 +1,21 @@
 @font-face {
     font-family: 'Notosans-bold';
-    src: url('../assets/font/notosans-bold.3ede5aff.woff2');
+    src: url('../../assets/font/notosans-bold.3ede5aff.woff2');
 }
 
 @font-face {
     font-family: 'Notosans-italic';
-    src: url('../assets/font/notosans-italic.1c1aaac9.woff2');
+    src: url('../../assets/font/notosans-italic.1c1aaac9.woff2');
 }
 
 @font-face {
     font-family: 'Notosans-regular';
-    src: url('../assets/font/notosans-regular.2cb88a13.woff2');
+    src: url('../../assets/font/notosans-regular.2cb88a13.woff2');
 }
 
 @font-face {
     font-family: 'Notosans-semibold';
-    src: url('../assets/font/notosans-semibold.df3e6dc4.woff2');
+    src: url('../../assets/font/notosans-semibold.df3e6dc4.woff2');
 }
 
 body {
